@@ -155,10 +155,12 @@ app.get("/api/programs", async (req, res) => {
 });
 
 // 🔷 Serve React frontend
-app.use(express.static(path.join(__dirname, "../frontend/dist")));
+const frontendPath = path.join(__dirname, 'frontend', 'dist');
 
-app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/dist/index.html"));
+app.use(express.static(frontendPath));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'index.html'));
 });
 
 app.listen(PORT, () => console.log(`🚀 Backend & frontend running on port ${PORT}`));
