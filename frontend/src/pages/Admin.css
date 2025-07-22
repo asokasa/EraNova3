@@ -1,0 +1,53 @@
+.admin-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.admin-container h1, .admin-container h2 {
+  text-align: center;
+}
+
+.program-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.program-form input,
+.program-form textarea,
+.program-form button {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.programs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.programs-table th, .programs-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.programs-table th {
+  background-color: #f4f4f4;
+}
+
+button {
+  cursor: pointer;
+  background-color: #f04;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.8;
+}

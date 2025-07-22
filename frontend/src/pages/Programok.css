@@ -1,0 +1,137 @@
+.programok-container {
+  max-width: 100%;
+  margin: 0 auto;
+  
+  font-family: Arial, sans-serif;
+  
+  background-color: #68A393;
+}
+
+
+.programok-container h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 10%;
+  color: #fff;
+  font-size: 400%;
+}
+
+.programok-title {
+  text-align: center;
+  margin-bottom: 20px;
+  
+  color: #333;
+}
+
+.date-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  
+}
+
+.date-button {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background-color: #DC4A25;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.date-button:hover {
+  background-color: #d36c52;
+}
+
+.date-button.active {
+  background-color: #FFD700;
+  font-weight: 800;
+}
+
+.program-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center cards */
+  gap: 20px;
+  padding-bottom: 10%;
+  padding-top: 7%;
+}
+
+.program-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background: #2A2835;
+  border: 5px solid #68A393;
+  border-radius: 25px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-height: 200px;
+  width: 60%;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.288);
+}
+
+.program-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%; /* adjust as needed */
+  object-fit: contain; /* so it fits nicely */
+  border-radius: 10%;
+}
+
+.program-details {
+  
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  
+  width: 50%;
+}
+
+.program-details h2 {
+  
+  font-size: 170%;
+  color: #ffffff;
+  
+  
+  width: 100%;
+}
+
+.program-details p {
+  
+  font-size: 120%;
+  
+  color: #ffffff;
+}
+
+.loading, .no-programs {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 50px;
+}
+
+
+.program-image-wrapper {
+  width: 40%; /* adjust if needed */
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2A2835;
+  padding-inline: 2%;
+}
+
+
