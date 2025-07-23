@@ -70,7 +70,7 @@ app.get("/api/admin-data", (req, res) => {
 
 app.post("/api/programs", upload.single("image"), async (req, res) => {
   try {
-    const { date, time, title, description } = req.body;
+    const { date, time, title, description = "" } = req.body;
     let imageUrl = null;
 
     if (req.file) {
@@ -84,7 +84,7 @@ app.post("/api/programs", upload.single("image"), async (req, res) => {
             console.error(error);
             return res.status(500).json({ error: "Cloudinary upload failed" });
           }
-          // Save program *after* upload if there was an image
+          
           const program = new Program({
             date,
             time,
@@ -99,7 +99,7 @@ app.post("/api/programs", upload.single("image"), async (req, res) => {
 
       result.end(req.file.buffer);
     } else {
-      // No file uploaded — save program without image
+       
       const program = new Program({
         date,
         time,
@@ -116,7 +116,7 @@ app.post("/api/programs", upload.single("image"), async (req, res) => {
   }
 });
 
-// ❌ Delete program
+
 app.delete("/api/programs/:id", async (req, res) => {
   try {
     const program = await Program.findById(req.params.id);
@@ -124,11 +124,11 @@ app.delete("/api/programs/:id", async (req, res) => {
       return res.status(404).json({ error: "Program not found" });
     }
 
-    // If program has an image, delete it from Cloudinary
+    
     if (program.imageUrl) {
-      // extract public_id from imageUrl
+      
       const parts = program.imageUrl.split('/');
-      const fileName = parts[parts.length - 1];       // e.g. xyz123.jpg
+      const fileName = parts[parts.length - 1];      
       const publicId = `festival_programs/${fileName.split('.')[0]}`;
 
       await cloudinary.uploader.destroy(publicId);
@@ -143,7 +143,7 @@ app.delete("/api/programs/:id", async (req, res) => {
   }
 });
 
-// 📋 Get programs
+
 app.get("/api/programs", async (req, res) => {
   try {
     const programs = await Program.find().sort({ date: 1, time: 1 });
@@ -154,7 +154,7 @@ app.get("/api/programs", async (req, res) => {
   }
 });
 
-// 🔷 Serve React frontend
+
 const frontendPath = path.join(__dirname, 'frontend', 'dist');
 
 app.use(express.static(frontendPath));

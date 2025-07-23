@@ -123,7 +123,7 @@ export default function Admin() {
         <input type="date" name="date" value={programForm.date} onChange={handleProgramChange} required />
         <input type="time" name="time" value={programForm.time} onChange={handleProgramChange} required />
         <input type="text" name="title" placeholder="Title" value={programForm.title} onChange={handleProgramChange} required />
-        <textarea name="description" placeholder="Short description" value={programForm.description} onChange={handleProgramChange} required></textarea>
+        <textarea name="description" placeholder="Short description" value={programForm.description} onChange={handleProgramChange}></textarea>
         <input type="file" name="image" accept="image/*" onChange={handleProgramChange} />
         <button type="submit" disabled={loading}>
           {loading ? "Uploading…" : "Upload Program"}
