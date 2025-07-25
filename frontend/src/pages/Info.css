@@ -1,0 +1,31 @@
+.info{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #68A393;
+    margin: 0;
+    
+}
+
+
+.info h2{
+    margin: 0;
+    padding-top: 200px;
+}
+
+
+.info p{
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: justify;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+
+.info_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}

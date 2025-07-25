@@ -386,7 +386,7 @@ h1{
   width: 64%;            /* was 80%, now 20% smaller */
   max-width: 1024px;     /* was 1280px, now 20% smaller */
   margin: 0 auto;
-  padding-bottom: 56.25%; 
+  padding-bottom: 35%; 
   height: 0;
   overflow: hidden;
   border-radius: 12px;

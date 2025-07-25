@@ -196,7 +196,7 @@ export default function Home() {
 
 
 
-
+{/*  
       <div className="galeria_blue">
         <h2>GALÉRIA</h2>
       </div>
@@ -239,7 +239,7 @@ export default function Home() {
         </svg>
       </div>
 
-
+*/}
 
 
 

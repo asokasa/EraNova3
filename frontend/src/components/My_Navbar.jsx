@@ -13,7 +13,7 @@ export default function My_Navbar() {
         <div className="header_nav">
           <img src="/home_shapes/Navbar_sarga.png" alt="" />
           <nav>
-            <Link to="/">Főoldal</Link>  <Link to="/programok">Programok</Link>  <Link to="/about">A fesztiválról</Link>  <Link to="/tamogatas">Támogatás</Link>
+            <Link to="/">Főoldal</Link>  <Link to="/programok">Programok</Link>  <Link to="/info">A fesztiválról</Link>  <Link to="/tamogatas">Támogatás</Link>
           </nav>
         </div>
         
