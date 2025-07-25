@@ -39,8 +39,8 @@ export default function Home() {
             <Card
               image="/card_pics/biankahaidu.png"
               title="biankahaidu"
-              link1="https://example.com/1"
-              link2="https://example.com/2"
+              link1="https://www.instagram.com/biankahaidu/"
+              link2="https://open.spotify.com/artist/7nMoGmt3F1SRF0sjsmK3hz?si=OlGxzPbnRS6n825NaFB7ww"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
             />
@@ -48,7 +48,7 @@ export default function Home() {
             <Card
               image="/card_pics/bosze.png"
               title="Boesze"
-              link1="https://example.com/1"
+              link1="https://www.instagram.com/_bsz.peter_/"
               link2="https://example.com/2"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
@@ -57,8 +57,8 @@ export default function Home() {
             <Card
               image="/card_pics/sildervald.png"
               title="SILDERVALD"
-              link1="https://example.com/1"
-              link2="https://example.com/2"
+              link1="https://www.instagram.com/sildervald/"
+              link2="https://open.spotify.com/artist/0PV2CgdfRFTa1VPzm85YpH?si=R6xmsu3IRE2VooDFfcdVuQ"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
             />
@@ -66,8 +66,8 @@ export default function Home() {
             <Card
               image="/card_pics/semmi.png"
               title="SEMMI"
-              link1="https://example.com/1"
-              link2="https://example.com/2"
+              link1="https://www.instagram.com/semmibandofficial/"
+              link2="https://open.spotify.com/artist/4zIEONFFlYdvj8DhUvbFVk?si=0nbs8--ySka3LRvYnIESTg"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
             />
@@ -75,8 +75,8 @@ export default function Home() {
             <Card
               image="/card_pics/kuszob.png"
               title="Küszöb"
-              link1="https://example.com/1"
-              link2="https://example.com/2"
+              link1="https://www.instagram.com/kuszob_official/"
+              link2="https://open.spotify.com/artist/5eLolZ11oN0D5aFUGn1nAF?si=4SfUknUOTBeyY0ZTsN87xg"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
             />
@@ -84,8 +84,8 @@ export default function Home() {
             <Card
               image="/card_pics/egykor.png"
               title="EgyKor"
-              link1="https://example.com/1"
-              link2="https://example.com/2"
+              link1="https://www.instagram.com/egy_kor/"
+              link2="https://open.spotify.com/artist/7HcdnmLOPS683F6ASvUeh4?si=NroXlBEhTCOl2G2o1EM0SQ"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
             />
@@ -93,8 +93,8 @@ export default function Home() {
             <Card
               image="/card_pics/30deg.png"
               title="30fok árnyékban"
-              link1="https://example.com/1"
-              link2="https://example.com/2"
+              link1="https://www.instagram.com/30fokarnyekban/"
+              link2="https://open.spotify.com/artist/5ilt3FIfZcZztrfhIFPc87?si=CV73DblxS9CLqeZ0La1lQA"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
             />
@@ -102,8 +102,8 @@ export default function Home() {
             <Card
               image="/card_pics/cinka.png"
               title="Cinka trió"
-              link1="https://example.com/1"
-              link2="https://example.com/2"
+              link1="https://www.instagram.com/cinkatrio/"
+              link2="https://open.spotify.com/artist/05s41Xj93OLfUKFcbSyvXT?si=zHIj-qCNQgaExQiqjKecog"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
             />
@@ -120,8 +120,8 @@ export default function Home() {
             <Card
               image="/card_pics/eranova.png"
               title="Era Nova"
-              link1="https://example.com/1"
-              link2="https://example.com/2"
+              link1="https://www.instagram.com/eranovaorchestra/"
+              link2="https://www.youtube.com/@EraNovaKamarazenekar"
               icon1="/icons/instagram.png"
               icon2="/icons/spotify.png"
             />
