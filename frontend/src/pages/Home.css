@@ -378,3 +378,27 @@ h1{
 }
 
 
+
+
+
+.video-container {
+  position: relative;
+  width: 64%;            /* was 80%, now 20% smaller */
+  max-width: 1024px;     /* was 1280px, now 20% smaller */
+  margin: 0 auto;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}

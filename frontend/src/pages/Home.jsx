@@ -174,7 +174,15 @@ export default function Home() {
         
 
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lSPEjipk1gQ?si=jvc_WWZd3fPyM3sS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-container">
+          <iframe 
+            src="https://www.youtube.com/embed/27wX6d5Bvtc?si=riD9JVfLMPybG57B" 
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
 
 

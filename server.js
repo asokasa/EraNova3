@@ -43,7 +43,7 @@ const Program = mongoose.model("Program", new mongoose.Schema({
   imageUrl: String
 }));
 
-// 🔐 Login
+
 app.post("/api/login", (req, res) => {
   const { username, password } = req.body;
 
@@ -55,7 +55,7 @@ app.post("/api/login", (req, res) => {
   res.status(401).json({ message: "Invalid credentials" });
 });
 
-// 🔐 Example protected
+
 app.get("/api/admin-data", (req, res) => {
   const authHeader = req.headers.authorization;
   if (!authHeader) return res.status(401).json({ message: "No token" });
