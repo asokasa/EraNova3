@@ -8,12 +8,34 @@ function Tamogatas() {
         
         
         
-        <div className="asd">
+       
             <div className="cim_holder">
                 <h2 className="tam_cim">TÁMOGATÁS</h2>
             </div>
+
+            <p>
+                Kedves Fesztiválozóink! Minden évben törekszünk arra, hogy a lehető 
+                legjobb hangulatú, legmagasabb színvonalú 
+                produkciókat hozzuk el Nektek Nemeshanyba! 
+                Anyagi forrásainkat különböző pályázatokból 
+                és támogatásokból próbáljuk fedezni, hogy 
+                ingyenesek maradhassanak programjaink. 
+                Ehhez kérjük most a segítségeteket, hogy 
+                támogassátok a közös célunkat, hogy a következő 
+                évben is létrejöhessen az Era Nova Összművészeti Fesztivál!
+                Az alábbi bankszámlaszámon várjuk a támogatásokat:
+            </p>
+
+
+            <div className="szamlaszam">
+                <p>
+                    (Kérjük tüntessétek fel a megjegyzés rovatban: 
+"Fesztivál támogatás") <br />
+TONUS PEREGRINUS HAGYOMÁNYŐRZŐ EGYESÜLETSzámlaszám: OTP 11748038-24822402
+                </p>
+            </div>
             
-        </div>
+        
         
         
         

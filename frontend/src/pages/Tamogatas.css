@@ -2,30 +2,26 @@
     min-height: 100vh;
     background-color: #68A393;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
 
-.asd{
-    
-    height: 700px;
-    background-color: #68A393;
-    
-    
-}
+
 
 
 .cim_holder {
-  position: relative;
-  top: 200px;
+  
+  margin-top: 10%;
   width: 60%;
   text-align: end;
   background-color: #D28900;
   border-radius: 25px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  text-align: center;
   
 }
 
@@ -35,3 +31,26 @@
   line-height: normal;
 }
 
+
+.tamogatas p {
+  margin-top: 10%;  
+  font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+    width: 60%;
+    
+    text-align: justify;
+}
+
+
+
+.szamlaszam{
+  margin-top: 3%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E9B206;
+  text-align: justify;
+  border-radius: 25px;
+}

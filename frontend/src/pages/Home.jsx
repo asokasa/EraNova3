@@ -160,7 +160,7 @@ export default function Home() {
               <tr>
                 <td><h3>SÁTORHELY</h3></td>
                 <td>A sátorhely vásárlásával fürdőhasználat is jár</td>
-                <td><h4>5.000 Ft</h4></td>
+                <td><h4>1.000 Ft</h4></td>
                 <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc8u4Q16HVWAmx4OcBU8A08JizwnyapsKC_cLQDst8pdTSNFg/viewform?usp=sharing&ouid=116442014383389431507" target="_blank">REGISZTRÁCIÓ</a></td>
               </tr>
               <tr>
