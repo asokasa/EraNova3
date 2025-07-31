@@ -128,7 +128,7 @@ export default function Home() {
           </div>
         
 
-      <a href="">ÖSSZES PROGRAM</a>
+      <a href="/programok">ÖSSZES PROGRAM</a>
         
       </div>
 
