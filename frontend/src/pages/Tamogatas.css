@@ -29,17 +29,19 @@
   margin: 0;
   font-size: 32px; /* or adjust */
   line-height: normal;
+  font-family: 'Baloo_Bold', cursive;
 }
 
 
 .tamogatas p {
-  margin-top: 10%;  
+   
   font-size: 20px;
     line-height: 1.5;
     color: #fff;
     width: 60%;
     
-    text-align: justify;
+    
+    font-family: 'Baloo_Bold', cursive;
 }
 
 
@@ -51,6 +53,6 @@
   align-items: center;
   justify-content: center;
   background-color: #E9B206;
-  text-align: justify;
+  
   border-radius: 25px;
 }
